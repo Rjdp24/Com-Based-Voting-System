@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    padding: 5px 20px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    background: #3c4858;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Lobster', sans-serif;
+}
+
+.user .logout {
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: orangered;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 0 5px orangered, 0 0 15px orangered;
+    transition: 0.5s;
+}
+
+.user .logout:hover {
+    box-shadow: 0 0 5px orangered, 0 0 25px orangered, 0 0 50px orangered;
+    transition: 0.5s;
+}
+
+hr {
+    border-color: rgba(255, 255, 255, .2);
+}
+
+.heading-container {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.65), rgba(4, 9, 30, 0.65)), url(../Resources/voters_panel_heading.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+}
+
+.heading-container1 {
+    backdrop-filter: blur(10px);
+    padding: 15px 30px;
+    padding-bottom: 35px;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px 0;
+    font-size: larger;
+}
+
+.heading .span {
+    color: orangered;
+}
+
+.sub-heading {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: large;
+}
+
+.sub-heading .span {
+    color: orangered;
+    font-size: 40px
+}
+
+.imp-note {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 10px 150px;
+    padding: 7px 0;
+    background-color: #ff9a98;
+    color: #000000;
+    border-radius: 20px;
+    font-size: 19px;
+}
+
+.imp-note h5 {
+    text-align: left;
+    padding: 0 60px;
+}
+
+.imp-note .bx {
+    position: relative;
+    top: 1px;
+}
+
+.voting-box {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 20px;
+    border: 1px solid #fe8d01;
+    border-radius: 20px;
+    background-color: #ffd8b2;
+}
+
+.voting-box h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.styled-table2 {
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    min-width: 80%;
+    position: relative;
+    left: 10%;
+    right: 10%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table2 thead tr {
+    background-color: #e06706;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.styled-table2 th,
+.styled-table2 td {
+    padding: 12px 30px;
+    text-align: center;
+}
+
+.styled-table2 tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: #fff;
+}
+
+.styled-table2 tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table2 tbody tr:last-of-type {
+    border-bottom: 2px solid #e06706;
+}
+
+.styled-table2 .actionbtn {
+    text-decoration: none;
+    color: black;
+    border: 2px solid #111111;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.styled-table2 .actionbtn:hover {
+    background-color: orangered;
+    color: #ffffff;
+    border: 2px solid orangered;
+    transition: 0.2s;
+}
+
+.styled-table2 .defaultbtn {
+    text-decoration: none;
+    color: black;
+    border: 2px solid #111111;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.empty-text {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: rgba(128, 128, 128, 0.6);
+    word-spacing: 7px;
+}

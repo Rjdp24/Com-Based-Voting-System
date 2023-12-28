@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../Resources/registration.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    width: 100%;
+    padding: 5px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Lobster', sans-serif;
+}
+
+hr {
+    border-color: rgba(255, 255, 255, .2);
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 40px;
+    font-size: large;
+    text-shadow: 2px 5px rgba(0, 0, 0, .2);
+}
+
+.heading .span {
+    color: orangered;
+}
+
+.wrapper {
+    width: 740px;
+    position: absolute;
+    top: 57%;
+    left: 47.6%;
+    transform: translate(-45%, -45%);
+    background: transparent;
+    backdrop-filter: blur(20px);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.wrapper .inputbox {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+}
+
+.wrapper .inputfield {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrapper .inputfield .inputbox{
+    position: relative;
+    width: 48%;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 20px 20px 50px;
+}
+
+.inputbox input::placeholder {
+    color: white;
+}
+
+.inputbox i {
+    position: absolute;
+    left: 20px;
+    top: 48%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .checkbox {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 15px;
+}
+
+.wrapper .checkbox h4 {
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.wrapper .checkbox label{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.wrapper .checkbox label input{
+    cursor: pointer;
+}
+
+.wrapper .btn {
+    width: 70%;
+    height: 45px;
+    position: relative;
+    left: 15%;
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.wrapper .btn:hover {
+    background: #fff;
+    color: black;
+    transition: 0.5s;
+}
+
+.wrapper .login-link {
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.login-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-link p a:hover {
+    text-decoration: underline;
+}
