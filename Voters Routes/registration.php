@@ -5,7 +5,7 @@ require("../API/connection.php");
 <html>
 
 <head>
-    <title>Online Voting System - Login</title>
+    <title>Com Based Voting System - Login</title>
     <link rel="stylesheet" href="../Voters Routes Stylesheet/registration.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="../Resources/logo.png">

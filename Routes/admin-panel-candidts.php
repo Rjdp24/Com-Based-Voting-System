@@ -35,7 +35,7 @@ if (isset($_GET['reset_all'])) {
 <html>
 
 <head>
-    <title>Online Voting System - Admin Panel</title>
+    <title>Com Based Voting System - Admin Panel</title>
     <link rel="stylesheet" href="../Routes Stylesheet/admin-panel.css">
     <link rel="shortcut icon" href="../Resources/logo.png">
 </head>
