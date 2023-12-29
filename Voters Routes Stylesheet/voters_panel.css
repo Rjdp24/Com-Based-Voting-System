@@ -188,6 +188,7 @@ hr {
     padding: 5px 15px;
     border-radius: 10px;
     transition: 0.2s;
+    user-select: none;
 }
 
 .styled-table2 .actionbtn:hover {
