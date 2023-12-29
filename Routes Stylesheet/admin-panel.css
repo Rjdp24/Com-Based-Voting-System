@@ -230,6 +230,7 @@ hr {
     color: #111111;
     font-weight: 600;
     transition: 0.5s;
+    user-select: none;
 }
 
 .wrapper .btn:hover {
