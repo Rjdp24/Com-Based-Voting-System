@@ -8,10 +8,17 @@
     box-sizing: border-box;
 }
 
+html{
+    height: 110%;
+}
+
 body {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../Resources/registration.jpg);
     background-size: cover;
     background-position: center;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -179,11 +186,64 @@ hr {
 }
 
 .login-link p a {
-    color: #fff;
+    color: rgb(255, 81, 18);
     text-decoration: none;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: bolder;
+    transition: 0.5s;
 }
 
 .login-link p a:hover {
     text-decoration: underline;
+    font-size: 18px;
+}
+
+footer{
+    margin-top: auto;
+    padding: 10px 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom right, rgb(19, 26, 32) 16%, rgb(4, 38, 56));
+}
+
+footer h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    padding: 5px 0;
+}
+
+.left-part p{
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.right-part a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 23px;
+}
+
+.right-part a:hover{
+    font-size: 16px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.right-part i{
+    position: absolute;
+    top: auto;
+    font-size: large;
+    background: -moz-linear-gradient(top, purple 20%, #c50000 80%);
+    background: -webkit-linear-gradient(top, purple 20%, #c50000 80%);
+    background: linear-gradient(to bottom left, purple 20%, #c50000 80%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

@@ -268,8 +268,7 @@ hr {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-.styled-table2,
-.styled-table3 {
+.styled-table2 {
     border-collapse: collapse;
     margin: 30px 0;
     font-size: 16px;
@@ -277,6 +276,20 @@ hr {
     min-width: 900px;
     position: relative;
     left: 12.5%;
+    right: 12.5%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table3 {
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    min-width: 900px;
+    position: relative;
+    left: 10.5%;
     right: 12.5%;
     border-radius: 5px 5px 0 0;
     overflow: hidden;

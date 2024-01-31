@@ -40,6 +40,18 @@ require("API/connection.php");
             </div>
         </form>
     </div>
+    <footer>
+        <div class="left-part">
+            <h3>Designed and Developed by :</h3>
+            <p>Rajdeep Aich&ensp;|&ensp;Bisal Shah&ensp;|&ensp;Aditya Sahu &ensp;-&ensp; BCA'24 @ Tinsukia College</p>
+        </div>
+        <div class="right-part">
+            <h3>Contact Us :</h3>
+            <i class='bx bxl-instagram-alt'></i> <a href="https://www.instagram.com/kunal__shah1/">Bisal Shah</a> &ensp;| &nbsp;
+            <i class='bx bxl-instagram-alt'></i> <a href="https://www.instagram.com/adityasahu395/">Aditya Sahu</a> &ensp;| &nbsp;
+            <i class='bx bxl-instagram-alt'></i> <a href="https://www.instagram.com/_.rjdp_/">Rajdeep Aich</a>
+        </div>
+    </footer>
     <?php
     if (isset($_POST['login_btn'])) {
         $query1 = mysqli_query($connect, "SELECT * FROM voter_registration WHERE `mobile` = '$_POST[mobile]' AND `password` = '$_POST[password]' AND `cpassword` = '$_POST[password]'") or die(mysqli_error($connect));

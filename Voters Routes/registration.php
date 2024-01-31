@@ -62,6 +62,20 @@ require("../API/connection.php");
             </div>
         </form>
     </div>
+    
+    <footer>
+        <div class="left-part">
+            <h3>Designed and Developed by :</h3>
+            <p>Rajdeep Aich&ensp;|&ensp;Bisal Shah&ensp;|&ensp;Aditya Sahu &ensp;-&ensp; BCA'24 @ Tinsukia College</p>
+        </div>
+        <div class="right-part">
+            <h3>Contact Us :</h3>
+            <i class='bx bxl-instagram-alt'></i> <a href="https://www.instagram.com/kunal__shah1/">Bisal Shah</a> &ensp;| &nbsp;
+            <i class='bx bxl-instagram-alt'></i> <a href="https://www.instagram.com/adityasahu395/">Aditya Sahu</a> &ensp;| &nbsp;
+            <i class='bx bxl-instagram-alt'></i> <a href="https://www.instagram.com/_.rjdp_/">Rajdeep Aich</a>
+        </div>
+    </footer>
+
     <?php
     if (isset($_POST['register-btn'])) {
         $name = mysqli_real_escape_string($connect, $_POST['fullname']);
