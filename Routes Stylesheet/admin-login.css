@@ -189,6 +189,7 @@ footer h3{
     font-weight: bold;
     font-size: 14px;
     padding-left: 23px;
+    transition: 0.5s;
 }
 
 .right-part a:hover{

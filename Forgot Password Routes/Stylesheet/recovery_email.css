@@ -13,7 +13,7 @@ html{
 }
 
 body {
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(Resources/election_campaign.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../../Resources/recovery_email_bg.jpg);
     background-size: cover;
     background-position: center;
     min-height: 100%;
@@ -48,7 +48,7 @@ nav a {
     font-family: 'Lobster', sans-serif;
 }
 
-.admin a {
+.user a {
     display: flex;
     align-items: center;
     padding: 5px 20px;
@@ -59,7 +59,7 @@ nav a {
     transition: 0.5s;
 }
 
-.admin a:hover {
+.user a:hover {
     box-shadow: 0 0 5px orangered, 0 0 25px orangered, 0 0 50px orangered;
     transition: 0.5s;
 }
@@ -85,7 +85,7 @@ hr {
 }
 
 .wrapper {
-    width: 450px;
+    width: 550px;
     position: absolute;
     top: 52%;
     left: 48%;
@@ -138,29 +138,11 @@ hr {
     font-size: 20px;
 }
 
-.inputbox a {
-    display: block;
-    text-align: right;
-    padding: 6px 16px;
-    font-size: 14px;
-    text-decoration: none;
-    color: orangered;
-    font-weight: bold;
-}
-
-.inputbox a:hover {
-    text-decoration: underline;
-    font-size: 15px;
-    transition: 0.2s;
-}
-
-.button {
-    padding-top: 10px;
-}
-
 .wrapper .btn {
-    width: 100%;
+    width: 70%;
     height: 45px;
+    position: relative;
+    left: 15%;
     background: transparent;
     border: none;
     outline: none;
@@ -180,24 +162,6 @@ hr {
     transition: 0.5s;
 }
 
-.wrapper .register-link {
-    font-size: 16px;
-    text-align: center;
-    margin: 20px 0 15px;
-}
-
-.register-link p a {
-    color: orangered;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 600;
-}
-
-.register-link p a:hover {
-    text-decoration: underline;
-    transition: 0.2s;
-}
-
 footer{
     margin-top: auto;
     padding: 10px 60px;
@@ -205,7 +169,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to bottom right, rgb(20, 17, 15) 16%, rgb(46, 28, 9));
+    background: linear-gradient(to bottom right, rgb(24, 28, 29) 16%, rgb(6, 44, 45));
 }
 
 footer h3{

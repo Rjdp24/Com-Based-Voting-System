@@ -33,8 +33,11 @@ require("API/connection.php");
             <div class="inputbox">
                 <input type="password" name="password" placeholder="Enter password" required>
                 <i class='bx bxs-lock-alt'></i>
+                <a href="Forgot Password Routes/recovery_email.php">Forgot Password?</a>
             </div>
-            <button type="submit" name="login_btn" class="btn">Login</button>
+            <div class="button">
+                <button type="submit" name="login_btn" class="btn">Login</button>
+            </div>
             <div class="register-link">
                 <p>New user? <a href="Voters Routes/registration.php"> Register Here</a></p>
             </div>

@@ -85,6 +85,8 @@ require("../API/connection.php");
         $cpassword = mysqli_real_escape_string($connect, $_POST['cpassword']);
         $gender = mysqli_real_escape_string($connect, $_POST['gender']);
 
+        $token = bin2hex(random_bytes(15));
+
         $fetching = mysqli_query($connect, "SELECT * FROM voter_registration WHERE `mobile` = '$mobile'") or die(mysqli_error($connect));
         $fetching2 = mysqli_query($connect, "SELECT * FROM voter_registration WHERE `email` = '$email'") or die(mysqli_error($connect));
         if ((mysqli_num_rows($fetching) > 0) && (mysqli_num_rows($fetching2) > 0)) {
@@ -109,8 +111,8 @@ require("../API/connection.php");
             </script>
             <?php
         } else {
-            if ($password == $cpassword) {
-                mysqli_query($connect, "INSERT INTO voter_registration(name, email, mobile, password, cpassword, gender) VALUES ('" . $name . "', '" . $email . "', '" . $mobile . "', '" . $password . "', '" . $cpassword . "', '" . $gender . "')") or die(mysqli_error($connect));
+            if ($password === $cpassword) {
+                mysqli_query($connect, "INSERT INTO voter_registration(name, email, mobile, password, cpassword, gender, token) VALUES ('" . $name . "', '" . $email . "', '" . $mobile . "', '" . $password . "', '" . $cpassword . "', '" . $gender . "', '". $token ."')") or die(mysqli_error($connect));
                 echo "<script> alert('Successfully registered!'); </script>";
             ?>
                 <script>

@@ -22,6 +22,8 @@ body {
 }
 
 nav {
+    position: sticky;
+    top: 0;
     width: 100%;
     padding: 5px 50px;
     display: flex;
@@ -49,6 +51,8 @@ nav a {
 }
 
 hr {
+    position: sticky;
+    top: 72px;
     border-color: rgba(255, 255, 255, .2);
 }
 
@@ -199,6 +203,8 @@ hr {
 }
 
 footer{
+    position: sticky;
+    bottom: 0;
     margin-top: auto;
     padding: 10px 60px;
     color: #fff;
@@ -227,6 +233,7 @@ footer h3{
     font-weight: bold;
     font-size: 14px;
     padding-left: 23px;
+    transition: 0.5s;
 }
 
 .right-part a:hover{
