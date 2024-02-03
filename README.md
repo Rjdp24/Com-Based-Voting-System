@@ -1,7 +1,7 @@
 
 # Computer Based Voting System 
 
-This is a computer based voting system project working on local server **Apache** and using **MySQL** database, accessing them through _*XAMPP Control Panel*_. This project was made as a **major project** for completion of the BCA 6th Semester. It is also used for conducting _*Student's Union Election*_ at **Tinsukia College**.
+This is a computer-based voting system project working on local server **Apache** and using **MySQL** database, accessing them through _*XAMPP Control Panel*_. This project was made as a **major project** for completion of the BCA 6th Semester. It is also used for conducting _*Student's Union Election*_ at **Tinsukia College**.
 
 
 ## Tech Stack
@@ -62,7 +62,7 @@ Please adhere to this project's `code of conduct`.
 
 ## Support
 
-For any kind of assistance or to setup this project in your system, reach out to me at [LinkedIn](https://www.linkedin.com/in/rjdp24/), [Instagram](https://www.linkedin.com/in/rjdp24/) or [Facebook](https://www.facebook.com/rajdeep.aich.73). I will try my best to connect with you as soon as possible.
+For any kind of assistance or to set up this project in your system, reach out to me at [LinkedIn](https://www.linkedin.com/in/rjdp24/), [Instagram](https://www.linkedin.com/in/rjdp24/) or [Facebook](https://www.facebook.com/rajdeep.aich.73). I will try my best to connect with you as soon as possible.
 
-**Note:** Setup and installation guide will be updated very soon!
+**Note:** Setup and installation guide will be updated soon!
 
