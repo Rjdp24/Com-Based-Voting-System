@@ -117,7 +117,7 @@ if (!isset($_SESSION['votername'])) {
     } else {
         ?>
         <div class="empty-text">
-            <h1>No Election is added yet!</h1>
+            <h1>No Election is going on!</h1>
         </div>
     <?php
     }
