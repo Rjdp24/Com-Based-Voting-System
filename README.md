@@ -36,13 +36,6 @@ The project is developed and tested on the _*XAMPP control panel,*_ providing an
 - **Tech Stack** used in it is quite outdated. XAMPP is used to build this project. If tech stack is not one of your major concerns, feel free to use it.
 
 
-## Contributors
-
-- [Aditya Sahu](https://www.instagram.com/adityasahu395/)
-- [Bisal Shah](https://www.instagram.com/kunal__shah1/)
-- [Rajdeep Aich](https://www.instagram.com/_.rjdp_/)
-
-
 ## Screenshots
 
 1. #### Voter Login Page:
